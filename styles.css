@@ -1,0 +1,32 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+svg {
+    background-color:rgb(206, 160, 100);
+    padding: 20px;
+}
+
+#title {
+    font-size: 25px;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
